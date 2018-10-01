@@ -1,0 +1,11 @@
+const YourComponent = ({ propExample1, example2 }) => (
+  <div>
+    <h1>properties from parent component:</h1>
+    <ul>
+      <li>{propExample1}</li>
+      <li>{example2}</li>
+    </ul>
+  </div>
+)
+
+// <YourComponent propExample1="aaa" example2="bbb" />

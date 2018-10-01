@@ -1,0 +1,5 @@
+import React from 'react'
+
+const YourComponent = () => <div>aaa</div>
+
+export default YourComponent

@@ -1,0 +1,25 @@
+class CountClicks extends React.Component {
+  state = {
+    clicks: 0
+  }
+
+  onButtonClick = () => {
+    this.setState(prevState => ({
+      clicks: prevState.clicks + 1
+    }))
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.onButtonClick}>
+          Click me
+        </button>
+        <span>
+          The button clicked 
+          {this.state.clicks} times.
+        </span>
+      </div>
+    )
+  }
+}

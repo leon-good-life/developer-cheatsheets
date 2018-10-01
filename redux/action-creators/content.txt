@@ -1,0 +1,13 @@
+const addTodo = (text) => ({
+  type: ADD_TODO,
+  text
+})
+const removeTodo = (id) => ({
+  type: REMOVE_TODO,
+  id
+})
+const updateTodo = (id, text) => ({
+  type: UPDATE_TODO
+  id, 
+  text
+})

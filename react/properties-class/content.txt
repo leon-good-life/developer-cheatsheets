@@ -1,0 +1,15 @@
+class YourComponent extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>
+          properties from parent component:
+        </h1>
+        <ul>
+          <li>{this.props.propExample1}</li>
+          <li>{this.props.example2}</li>
+        </ul>
+      </div>
+    )
+  }
+}

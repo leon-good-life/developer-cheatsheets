@@ -1,0 +1,13 @@
+import { Link } from 'react-router-dom'
+
+const Links = ({ match }) => (
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to={{ pathname: '/dashboard' }}>
+      Dashboard
+    </Link>
+    <Link replace to="/about">About</Link>
+  </nav>
+)
+
+export default Links

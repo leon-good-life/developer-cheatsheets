@@ -1,0 +1,16 @@
+import { 
+  BrowserRouter, 
+  Route 
+} from 'react-router-dom'
+
+const Hello = () => <h1>Hello world!</h1>
+
+const App = () => (
+  <BrowserRouter>
+    <div>
+      <Route path="/hello" component={Hello}/>
+    </div>
+  </BrowserRouter>
+)
+
+// open: http://localhost:3000/hello

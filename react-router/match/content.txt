@@ -1,0 +1,10 @@
+const Dashboard = ({ match }) => (
+  <ul>
+    <li>params: {JSON.stringify(match.params)}</li>
+    <li>isExact: {match.isExact.toString()}</li>
+    <li>path: {match.path}</li>
+    <li>url: {match.url}</li>
+  </ul>
+)
+
+<Route path="/dashboard" component={Dashboard}/>

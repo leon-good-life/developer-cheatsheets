@@ -1,0 +1,9 @@
+const Component1 = (props) => (
+  <div>{props.children}</div>
+)
+
+const Component2 = () => (
+  <Component1>
+    <h1>Component 1</h1>
+  </Component1>
+)

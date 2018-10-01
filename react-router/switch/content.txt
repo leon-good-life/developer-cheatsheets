@@ -1,0 +1,20 @@
+//Renders the first <Route> that matches the location.
+
+import  { 
+  BrowserRouter, 
+  Switch, 
+  Route 
+} from 'react-router'
+
+const YourComponent = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/" component={Home}/>
+      <Route path="/about" component={About}/>
+      <Route path="/:user" component={User}/>
+      <Route component={NoMatch}/>
+    </Switch>
+  </BrowserRouter>
+);
+
+export default YourComponent

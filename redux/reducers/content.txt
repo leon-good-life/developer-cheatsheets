@@ -1,0 +1,19 @@
+const initialState = {
+  todos: []
+}
+
+function todosReducer(state = initialState, action) {
+  switch (action.type) {
+    case UPDATE_TODO:
+      const newState = deepClone(state)
+      const todo = newState.todos.find(
+        todo => todo.id === action.id
+      )
+      todo.text = action.text
+      return newState
+  }
+}
+
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj))
+}

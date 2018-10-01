@@ -1,0 +1,18 @@
+import React from 'react'
+import Loading from '../components/Loading'
+
+const withLoading = WrappedComponent => {
+  return (props = {}) => {
+    if (props.isLoading) {
+      return <Loading />
+    }
+    return <WrappedComponent {...this.props} />
+  }
+}
+
+export default withLoading
+
+// --------
+
+const MyComponent = ({}) => <div /> // ...
+const WithLoadingComponent = withLoading(MyComponent)

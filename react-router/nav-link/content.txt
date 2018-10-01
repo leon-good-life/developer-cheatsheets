@@ -1,0 +1,17 @@
+import { NavLink } from 'react-router-dom'
+
+const Links = ({ match }) => (
+  <nav>
+    <NavLink activeClassName="active" to="/">
+      Home
+    </NavLink>
+    <NavLink activeClassName="active" to="/dashboard">
+      Dashboard
+    </NavLink>
+    <NavLink activeClassName="active" to="/about">
+      About
+    </NavLink>
+  </nav>
+)
+
+export default Links

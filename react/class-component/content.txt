@@ -1,0 +1,9 @@
+import React from 'react'
+
+class YourComponent extends React.Component {
+  render() {
+    return <div>aaa</div>
+  }
+}
+
+export default YourComponent
