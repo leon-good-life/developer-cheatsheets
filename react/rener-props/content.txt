@@ -1,34 +1,34 @@
 import React from 'react'
 
-const MOBILE_VIEW_WIDTH_THRESHOLD = 600;
+const MOBILE_VIEW_WIDTH_THRESHOLD = 600
 
 class MediaQuery {
-    state = {
-        shouldShowMobileView: false
-    }
+	state = {
+		shouldShowMobileView: false
+	}
 
-    componentDidMount() {
-        addEventListener('resize', this.updateResizeStatus);
-    }
+	componentDidMount() {
+		addEventListener('resize', this.updateResizeStatus)
+	}
 
-    componentWillUnmount() {
-        removeEventListener('resize', this.updateResizeStatus);
-    }
+	componentWillUnmount() {
+		removeEventListener('resize', this.updateResizeStatus)
+	}
 
-    updateResizeStatus() {
-        if (screen.width <= MOBILE_VIEW_WIDTH_THRESHOLD) {
-            this.setState({
-                shouldShowMobileView: true
-            });
-        }
-    }
+	updateResizeStatus() {
+		if (screen.width <= MOBILE_VIEW_WIDTH_THRESHOLD) {
+			this.setState({
+				shouldShowMobileView: true
+			})
+		}
+	}
 
-    render() {
-        return this.props.children(this.state.shouldShowMobileView);
-    }
+	render() {
+		return this.props.children(this.state.shouldShowMobileView)
+	}
 }
 
-export default MediaQuery;
+export default MediaQuery
 
 // --------
 
@@ -37,11 +37,9 @@ import MobileView from '../components/MobileView'
 import DefaultView from '../components/DefaultView'
 
 const Screen = () => (
-    <MediaQuery>
-        {
-            (shouldShowMobileView) => shouldShowMobileView
-                ? <MobileView />
-                : <DefaultView />
-        }
-    </MediaQuery>
+	<MediaQuery>
+		{shouldShowMobileView =>
+			shouldShowMobileView ? <MobileView /> : <DefaultView />
+		}
+	</MediaQuery>
 )
