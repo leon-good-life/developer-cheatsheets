@@ -10,7 +10,7 @@ To add an example to a React Cheatsheet: (for example)
 1. create a directory inside 'react' directory.
 2. Inside the directory you created:
 -  create content.txt file and write there the example.
--  create metadat.json file:
+-  create metadata.json file:
 
 
 ```
