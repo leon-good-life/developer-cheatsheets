@@ -5,7 +5,7 @@ snippets of http://www.developer-cheatsheets.com/
 You can make a PR and add an example, 
 you will receive a credit under the example with a link to your website.
 
-To add an example to an React Cheatsheet:
+To add an example to a React Cheatsheet: (for example)
 
 1. create a directory inside 'react' directory.
 2. Inside the directory you created:
