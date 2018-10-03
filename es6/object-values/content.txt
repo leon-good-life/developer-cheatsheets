@@ -1,0 +1,10 @@
+const obj = {
+  firstName: 'Vipul',
+  lastName: 'Rawat',
+  age: 22,
+  country: 'India',
+};
+
+const values = Object.values(obj);  // returns an array containing the values of the object passed
+
+console.log(values);  // ['Vipul', 'Rawat', 22, 'India']
