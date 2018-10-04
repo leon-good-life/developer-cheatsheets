@@ -6,7 +6,7 @@ const withLoading = WrappedComponent => {
     if (props.isLoading) {
       return <Loading />
     }
-    return <WrappedComponent {...this.props} />
+    return <WrappedComponent {...props} />
   }
 }
 
