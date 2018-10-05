@@ -23,7 +23,7 @@ To add an example to a React Cheatsheet: (for example)
 }
 ```
 
-## Contibuters
+## contributors
 - [@leon-good-life](https://github.com/leon-good-life)
 - [@DalerAsrorov](https://github.com/DalerAsrorov)
 - [@vipulrawat](https://github.com/vipulrawat)
