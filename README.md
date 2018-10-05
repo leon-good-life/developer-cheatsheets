@@ -24,8 +24,8 @@ To add an example to a React Cheatsheet: (for example)
 ```
 
 ## Contibuters
-- @leon-good-life
-- @DalerAsrorov
-- @vipulrawat
-- @itaditya
-- @alexandre-pod
+- [@leon-good-life](https://github.com/leon-good-life)
+- [@DalerAsrorov](https://github.com/DalerAsrorov)
+- [@vipulrawat](https://github.com/vipulrawat)
+- [@itaditya](https://github.com/itaditya)
+- [@alexandre-pod](https://github.com/alexandre-pod)
