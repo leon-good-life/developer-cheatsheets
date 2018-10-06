@@ -1,0 +1,17 @@
+const Person = {
+  name: "John Snow",
+  age: 29,
+  sex: "male",
+  materialStatus: "single",
+  address: {
+    country: "India",
+    state: "Telangana",
+    city: "Hyderabad",
+    pinCode: "500014",
+  },
+};
+
+const { address : { state, pinCode } } = Person;
+
+console.log(state, pinCode) // Telangana, 500014
+console.log(city) // ReferenceError
