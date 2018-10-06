@@ -4,14 +4,14 @@ const Person = {
   sex: "male",
   materialStatus: "single",
   address: {
-    country: "India",
-    state: "Telangana",
-    city: "Hyderabad",
+    country: "Westeros",
+    state: "The Crownlands",
+    city: "Kings Landing",
     pinCode: "500014",
   },
 };
 
-const { address : { state, pinCode } } = Person;
+const { address : { state, pinCode }, name } = Person;
 
-console.log(state, pinCode) // Telangana, 500014
+console.log(name, state, pinCode) // John Snow The Crownlands 500014
 console.log(city) // ReferenceError
