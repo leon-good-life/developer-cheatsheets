@@ -2,7 +2,7 @@
 snippets of http://www.developer-cheatsheets.com/
 
 ## contributing
-You can make a PR and add an example, 
+You can make a Pull Request and add an example, 
 you will receive a credit under the example with a link to your website.
 
 To add an example to a React Cheatsheet: (for example)
