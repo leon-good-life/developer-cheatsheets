@@ -18,6 +18,7 @@ module.exports = {
 		'property-assignement',
 		'function-assignement',
 		'spread-operator',
-		'object-assign'
+        'object-assign',
+        'modules'
 	]
 }
