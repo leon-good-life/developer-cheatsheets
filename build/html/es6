@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ES6 cheat sheet</title>
+        <meta type="keywords" content="ES6 Cheatsheet,es6" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="styles/prism-atom-dark.css" />
+        <link rel="stylesheet" href="styles/atom-one-dark.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <style>
+            h1,
+            h3 {
+                color: #998e11;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <header data-aos="zoom-in-up">
+                <h1><img src="./images/es6_logo.svg" />ES6 cheat sheet</h1>
+                <button onclick="openPDF()"><img src="./images/pdf.svg" />PDF</button>
+            </header>
+            <article>
+                <section data-aos="zoom-in-up">
+    <h3
+    >
+        Arrow function
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const sum &#x3D; (a, b) &#x3D;&gt; a + b
+
+console.log(sum(2, 6)) // prints 8
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Default parameters
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">function print(a &#x3D; 5) {
+    console.log(a)
+}
+
+print() // prints 5
+print(22) // prints 22
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        let scope
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">let a &#x3D; 3
+
+if (true) {
+    let a &#x3D; 5
+    console.log(a) // prints 5
+}
+
+console.log(a) // prints 3
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        const
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">// can be assigned only once:
+const a &#x3D; 55
+
+a &#x3D; 44 // throws an error
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Multiline string
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">console.log(&#x60;
+  This is a 
+  multiline string
+&#x60;)</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Template strings
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const name &#x3D; &#x27;Leon&#x27;
+const message &#x3D; &#x60;Hello ${name}&#x60;
+
+console.log(message) // prints &quot;Hello Leon&quot;
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        String includes()
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">console.log(&#x27;apple&#x27;.includes(&#x27;pl&#x27;)) // prints true
+console.log(&#x27;apple&#x27;.includes(&#x27;tt&#x27;)) // prints false</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        String startsWith()
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">console.log(&#x27;apple&#x27;.startsWith(&#x27;ap&#x27;)) // prints true
+console.log(&#x27;apple&#x27;.startsWith(&#x27;bb&#x27;)) // prints false</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        String repeat()
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">console.log(&#x27;ab&#x27;.repeat(3)) // prints &quot;ababab&quot;
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Destructuring array
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">let [a, b] &#x3D; [3, 7];
+
+console.log(a); // 3
+console.log(b); // 7</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Destructuring object
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">let obj &#x3D; { 
+  a: 55,
+  b: 44
+};
+
+let { a, b } &#x3D; obj;
+
+console.log(a); // 55
+console.log(b); // 44
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        object property assignement
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const a &#x3D; 2
+const b &#x3D; 5
+
+const obj &#x3D; { a, b }
+
+// Before es6:
+// obj &#x3D; { a: a, b: b }
+
+console.log(obj) // prints { a: 2, b: 5 }
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        object function assignement
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const obj &#x3D; { 
+    a: 5, 
+    b() {
+        console.log(&#x27;b&#x27;)
+    } 
+}
+
+obj.b() // prints &quot;b&quot;
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        spread operator
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const a &#x3D; [ 1, 2 ]
+const b &#x3D; [ 3, 4 ]
+
+const c &#x3D; [ ...a, ...b ]
+
+console.log(c) // [1, 2, 3, 4]
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Object.assign()
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const obj1 &#x3D; { a: 1 }
+const obj2 &#x3D; { b: 2 }
+
+const obj3 &#x3D; Object.assign({}, obj1, obj2)
+
+console.log(obj3) // { a: 1, b: 2 }
+
+</code></pre>
+
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Object.entries()
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const obj &#x3D; {
+  firstName: &#x27;Vipul&#x27;,
+  lastName: &#x27;Rawat&#x27;,
+  age: 22,
+  country: &#x27;India&#x27;,
+};
+
+const entries &#x3D; Object.entries(obj);  
+/* returns an array of [key, value] 
+   pairs of the object passed
+*/
+
+console.log(entries);  
+/* prints
+   [
+     [&#x27;firstName&#x27;, &#x27;Vipul&#x27;], 
+     [&#x27;lastName&#x27;, &#x27;Rawat&#x27;], 
+     [&#x27;age&#x27;, 22], 
+     [&#x27;country&#x27;, &#x27;India&#x27;]
+   ];
+*/
+</code></pre>
+
+            <span style="font-size: 14px;float: right;position: unset;color: #9599a0;">
+                Author: Vipul Rawat
+            </span>
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        spread operator
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const a &#x3D; {
+    firstName: &quot;Barry&quot;,
+    lastName: &quot;Manilow&quot;,
+}
+
+const b &#x3D; {
+    ...a,
+    lastName: &quot;White&quot;,
+    canSing: true,	
+}
+
+console.log(a) // {firstName: &quot;Barry&quot;, lastName: &quot;Manilow&quot;}
+
+console.log(b) // {firstName: &quot;Barry&quot;, lastName: &quot;White&quot;, canSing: true}
+
+// great for modifying objects without side effects/affecting the original
+</code></pre>
+
+            <span style="font-size: 14px;float: right;position: unset;color: #9599a0;">
+                Author: Layton Gilbraith
+            </span>
+    </div>
+</section><section data-aos="zoom-in-up">
+    <h3
+    >
+        Destructuring Nested Objects
+    </h3>
+    <div class="snippet">
+            <pre><code class="language-javascript">const Person &#x3D; {
+  name: &quot;John Snow&quot;,
+  age: 29,
+  sex: &quot;male&quot;,
+  materialStatus: &quot;single&quot;,
+  address: {
+    country: &quot;Westeros&quot;,
+    state: &quot;The Crownlands&quot;,
+    city: &quot;Kings Landing&quot;,
+    pinCode: &quot;500014&quot;,
+  },
+};
+
+const { address : { state, pinCode }, name } &#x3D; Person;
+
+console.log(name, state, pinCode) // John Snow The Crownlands 500014
+console.log(city) // ReferenceError</code></pre>
+
+            <span style="font-size: 14px;float: right;position: unset;color: #9599a0;">
+                Author: Vishal Lakkapathri
+            </span>
+    </div>
+</section>
+            </article>
+            <footer>Copyright &copy; Leon Gilyadov 2018 - 2020</footer>
+        </div>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121688555-2"></script>
+        <script src="scripts/prism.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
