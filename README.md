@@ -7,21 +7,22 @@ you will receive a credit under the example with a link to your website.
 
 To add an example to a React Cheatsheet: (for example)
 
-1. create a directory inside 'react' directory.
-2. Inside the directory you created:
--  create content.txt file and write there the example.
--  create metadata.json file:
-
-
+1. Go to 'data' directory
+2. Go to some directory (for example 'react' for react cheat sheet)
+3. Edit the json file. Add the metadata inside 'sections' in the json file. For example:
 ```
 {
     "title": "WRITE HERE THE NAME OF THE EXAMPLE",
-    "file": "content.txt",
     "type": "language-jsx",
     "author": "WRITE HERE YOUR NAME",
     "authorLink": "LINK TO YOUR WEBSITE (OPTIONAL)"
 }
 ```
+4. Close the json file and go to 'section' directory
+5. Inside the 'section' directory:
+-  create content.txt file and write there the example.
+
+
 
 ## contributors
 - [@leon-good-life](https://github.com/leon-good-life)

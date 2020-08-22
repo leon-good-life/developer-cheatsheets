@@ -1,0 +1,51 @@
+{
+    "title": "Redux cheat sheet",
+    "file": "redux",
+    "keywords": ["Redux Cheatsheet"],
+    "color": "#764ABC",
+    "logo": "./images/redux_logo.svg",
+    "sections": [
+      {
+          "name": "action-types",
+          "title": "action types",
+          "type": "language-jsx"
+      },
+      {
+          "name": "action-creators",
+          "title": "action creators",
+          "type": "language-jsx"
+      },
+      {
+          "name": "reducers",
+          "title": "reducers",
+          "type": "language-jsx"
+      },
+      {
+          "name": "store",
+          "title": "store",
+          "type": "language-jsx"
+      },
+      {
+          "name": "react-redux-provider",
+          "title": "react-redux provider",
+          "type": "language-jsx"
+      },
+      {
+          "name": "react-redux-connect",
+          "title": "react-redux connect",
+          "type": "language-jsx"
+      },
+      {
+          "name": "middleware",
+          "title": "redux middleware",
+          "type": "language-jsx"
+      },
+      {
+          "name": "advanced-store",
+          "title": "advanced reducers",
+          "type": "language-jsx",
+          "author": "Layton Gilbraith"
+      }
+    ]
+  }
+  

@@ -1,6 +1,0 @@
-const Wrapper= props => props.children
-export default Wrapper;
-
-// Return in any component can be enclosed within 
-// a single tag only. Better to use this 
-// <Wrapper> instead of <div> tag

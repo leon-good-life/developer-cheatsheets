@@ -1,0 +1,93 @@
+{
+	"title": "React cheat sheet",
+	"file": "react",
+	"keywords": [
+		"react"
+	],
+	"color": "#61dafb",
+	"logo": "images/react_logo.svg",
+	"sections": [
+		{
+			"name": "create-react-app",
+			"title": "create-react-app",
+			"type": "language-bash"
+		},
+		{
+			"name": "stateless-component",
+			"title": "Stateless component",
+			"type": "language-jsx"
+		},
+		{
+			"name": "class-component",
+			"title": "Class component",
+			"type": "language-jsx"
+		},
+		{
+			"name": "properties-stateless",
+			"title": "Properties in stateless component",
+			"type": "language-jsx"
+		},
+		{
+			"name": "properties-class",
+			"title": "Properties in class component",
+			"type": "language-jsx"
+		},
+		{
+			"name": "children",
+			"title": "Children",
+			"type": "language-jsx"
+		},
+		{
+			"name": "architecture",
+			"title": "Architecture",
+			"type": "image",
+			"isDiagram": true
+		},
+		{
+			"name": "state",
+			"title": "State",
+			"type": "language-jsx"
+		},
+		{
+			"name": "react-router",
+			"title": "React Router",
+			"type": "language-jsx",
+			"more": "react-router",
+			"color": "#ca4245",
+			"logo": "./images/react_router_logo.svg"
+		},
+		{
+			"name": "react-redux-provider",
+			"title": "react-redux provider",
+			"type": "language-jsx",
+			"more": "redux",
+			"color": "#764ABC",
+			"logo": "./images/redux_logo.svg"
+		},
+		{
+			"name": "react-redux-connect",
+			"title": "react-redux connect",
+			"type": "language-jsx",
+			"more": "redux",
+			"color": "#764ABC",
+			"logo": "./images/redux_logo.svg"
+		},
+		{
+			"name": "ref",
+			"title": "Ref",
+			"type": "language-jsx"
+		},
+		{
+			"name": "hoc",
+			"title": "Higher Order Component",
+			"type": "language-jsx"
+		},
+		{
+			"name": "render-props",
+			"title": "Render Props",
+			"type": "language-jsx",
+			"author": "Daler Asrorov",
+			"authorLink": "https://github.com/DalerAsrorov"
+		}
+	]
+}

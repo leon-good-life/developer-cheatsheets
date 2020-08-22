@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+html {
+	min-height: 100vh;
+	background: #21252b;
+	color: #9599a0;
+	font-family: 'Alata', sans-serif;
+}
+header {
+	position: relative;
+	padding: 75px 25px;
+}
+header button {
+	right: 28px;
+	top: 90px;
+	padding: 10px 20px;
+	background: #3f4249;
+	color: #75777c;
+	align-items: center;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	display: flex;
+}
+header button img {
+	padding-right: 10px;
+}
+header button:hover {
+	box-shadow: 0px 0px 12px 0px;
+	border: #75777c 1px solid;
+}
+h1 {
+	margin: 0;
+	font-size: 52px;
+	font-weight: normal;
+}
+h1 img {
+	margin-right: 10px;
+}
+h3 {
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	display: flex;
+}
+h3 img {
+	margin-right: 10px;
+}
+pre {
+	background: #282c34;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin: 3px 0;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+article {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+section {
+	margin: 25px;
+	flex-grow: 1;
+	position: relative;
+}
+section a {
+	/* color: #ca4245; */
+	position: absolute;
+	right: 0;
+	top: 5px;
+	text-transform: capitalize;
+}
+.copyToClipboard {
+	position: absolute;
+	right: 9px;
+	top: 42px;
+	padding: 3px 10px;
+	background: #3f4249;
+	color: #75777c;
+	align-items: center;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+	border: 1px solid transparent;
+}
+.copyToClipboard span {
+	font-size: 22px;
+	padding-right: 5px;
+}
+.snippet:hover .copyToClipboard {
+	display: flex;
+}
+.copyToClipboard:hover {
+	box-shadow: 0px 0px 12px 0px;
+	border: #75777c 1px solid;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+footer p {
+	margin: 5px;
+}
+footer p a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #b5b5b5;
+}
+.diagram {
+	min-width: 360px;
+	background: #282c34;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin: 3px 0;
+}
+
+@media only screen and (max-width: 900px) {
+	.diagram {
+		min-width: 500px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.diagram {
+		min-width: 300px;
+	}
+	header {
+		padding: 0;
+	}
+	h1 {
+		margin: 20px 0;
+		font-size: 38px;
+		display: block;
+		text-align: center;
+	}
+	h1 img {
+		height: 25px;
+	}
+	pre {
+		font-size: 10px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	section {
+		margin: 10px;
+	}
+	header button {
+		display: none;
+	}
+}

@@ -1,0 +1,102 @@
+{
+    "title": "ES6 cheat sheet",
+    "file": "es6",
+    "keywords": ["ES6 Cheatsheet", "es6"],
+    "color": "#998e11",
+    "logo": "./images/es6_logo.svg",
+    "sections": [
+        {
+          "name": "arrow-functions",
+          "title": "Arrow function",
+          "type": "language-javascript"
+        },
+        {
+          "name": "default-value",
+          "title": "Default parameters",
+          "type": "language-javascript"
+        },
+        {
+          "name": "let-scope",
+          "title": "let scope",
+          "type": "language-javascript"
+        },
+        {
+          "name": "const",
+          "title": "const",
+          "type": "language-javascript"
+        },
+        {
+          "name": "multiline-string",
+          "title": "Multiline string",
+          "type": "language-javascript"
+        },
+        {
+          "name": "template-strings",
+          "title": "Template strings",
+          "type": "language-javascript"
+        },
+        {
+          "name": "string-includes",
+          "title": "String includes()",
+          "type": "language-javascript"
+        },
+        {
+          "name": "string-starts-with",
+          "title": "String startsWith()",
+          "type": "language-javascript"
+        },
+        {
+          "name": "string-repeat",
+          "title": "String repeat()",
+          "type": "language-javascript"
+        },
+        {
+          "name": "destructuring-array",
+          "title": "Destructuring array",
+          "type": "language-javascript"
+        },
+        {
+          "name": "destructuring-object",
+          "title": "Destructuring object",
+          "type": "language-javascript"
+        },
+        {
+          "name": "property-assignement",
+          "title": "object property assignement",
+          "type": "language-javascript"
+        },
+        {
+          "name": "function-assignement",
+          "title": "object function assignement",
+          "type": "language-javascript"
+        },
+        {
+          "name": "spread-operator",
+          "title": "spread operator",
+          "type": "language-javascript"
+        },
+        {
+          "name": "object-assign",
+          "title": "Object.assign()",
+          "type": "language-javascript"
+        },
+        {
+          "name": "object-entries",
+          "title": "Object.entries()",
+          "type": "language-javascript",
+          "author": "Vipul Rawat"
+        },
+        {
+          "name": "spread-object",
+          "title": "spread operator",
+          "type": "language-javascript",
+          "author": "Layton Gilbraith"
+        },
+        {
+          "name": "destructuring-nestedObjects",
+          "title": "Destructuring Nested Objects",
+          "type": "language-javascript",
+          "author": "Vishal Lakkapathri"
+        }
+    ]
+  }

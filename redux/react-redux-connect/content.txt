@@ -1,8 +1,0 @@
-import { connect } from 'react-redux'
-​
-YourComponent = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(YourComponent)
-​
-export default YourComponent

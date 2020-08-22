@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "pdfmake": "^0.1.38"
+  }
+}

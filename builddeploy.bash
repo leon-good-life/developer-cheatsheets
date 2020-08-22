@@ -1,0 +1,2 @@
+./build.bash
+./deploy.bash

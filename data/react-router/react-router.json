@@ -1,0 +1,39 @@
+{
+    "title": "React Router cheat sheet",
+    "file": "react-router",
+    "keywords": ["React router Cheatsheet"],
+    "color": "#ca4245",
+    "logo": "./images/react_router_logo.svg",
+    "sections": [
+        {
+            "name": "react-router-dom",
+            "title": "install dependency",
+            "type": "language-bash"
+        }, 
+        {
+            "name": "hello",
+            "title": "Hello World!",
+            "type": "language-jsx"
+        }, 
+        {
+            "name": "switch",
+            "title": "Switch",
+            "type": "language-jsx"
+        }, 
+        {
+            "name": "link",
+            "title": "Link",
+            "type": "language-jsx"
+        }, 
+        {
+            "name": "nav-link",
+            "title": "NavLink",
+            "type": "language-jsx"
+        }, 
+        {
+            "name": "match",
+            "title": "match",
+            "type": "language-jsx"
+        }
+    ]
+  }

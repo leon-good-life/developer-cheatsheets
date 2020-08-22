@@ -1,0 +1,42 @@
+<section data-aos="zoom-in-up">
+    <h3
+    {{#if color}}
+    style="color: {{color}};"
+    {{/if}}
+    >
+        {{#if logo}}
+        <img src="{{{logo}}}" />
+        {{/if}}
+        {{{title}}}
+    </h3>
+    {{#if more}}
+        <a href="{{{more}}}" 
+        
+        {{#if color}}
+        style="color: {{{color}}};"
+        {{/if}}
+        
+        >{{{more}}} cheat sheet</a>
+    {{/if}}
+    <div class="snippet">
+        {{#if isDiagram}}
+            <div class="diagram">
+                {{{content}}}
+            </div>
+        {{else}} 
+            <pre><code class="{{{type}}}">{{content}}</code></pre>
+        {{/if}}
+
+        {{#if authorLink}}
+        <a style="font-size: 14px;float: right;position: unset;color: #9599a0;" href="{{authorLink}}">
+            Author: {{author}}
+        </a>
+        {{else}} 
+            {{#if author}}
+            <span style="font-size: 14px;float: right;position: unset;color: #9599a0;">
+                Author: {{author}}
+            </span>
+            {{/if}}
+        {{/if}}
+    </div>
+</section>
