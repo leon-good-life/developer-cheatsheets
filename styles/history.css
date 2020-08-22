@@ -1,0 +1,159 @@
+/* fontface styles */
+@font-face {
+    font-family: 'Lobster';
+    src: url('./fonts/Lobster/Lobster-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('./fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+
+hgroup {
+    font-family: 'Lobster', cursive;
+}
+
+section, footer, ul {
+    font-family: 'Crimson Text', serif;
+}
+
+/* font size styles */
+h1 {
+    font-size: 52px;
+}
+h2 {
+    font-size: 42px;
+}
+h3 {
+    font-size: 36px;
+}
+p, li {
+    font-size: 32px;
+}
+
+/* colors */
+html {
+    background-color: #21252b;
+}
+hgroup {
+    color: lightgray;
+}
+footer {
+    color: lightgray;
+}
+section {
+    /* background-color: lightgray; */
+    background-color: #d3d3d3de;
+}
+a {
+    color: black;
+}
+
+
+/* other styles */
+html {
+    min-height: 100vh;
+}
+article {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+hgroup {
+    text-align: center;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+section {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.the-web-section {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 5px;
+}
+.html-section {
+    margin-top: 5px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.http-section {
+    margin-top: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.php-section img,
+.jquery-section img,
+.nodejs-section img {
+    float: right;
+    width: 300px;
+}
+.flash-section img,
+.react-section img {
+    float: right;
+    width: 150px;
+    margin-left: 2px;
+}
+.my-book-section img {
+    float: right;
+    width: 150px;
+    margin-left: 3px;
+}
+.images-container img {
+    width: 300px;
+}
+.images-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.html-section img,
+.http-section img {
+    max-width: 100%;
+}
+span {
+    display: inline-block;
+}
+span::first-letter {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        display: block;
+        margin: 8px;
+        padding: 20px;
+    }
+    .images-container {
+        padding: 0px;
+    }
+    .images-container img {
+        width: 200px;
+    }
+    .php-section img, 
+    .jquery-section img, 
+    .nodejs-section img {
+        width: 200px;
+    }    
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p, li {
+        font-size: 16px;
+    }
+}
