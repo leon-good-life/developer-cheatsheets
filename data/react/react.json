@@ -73,6 +73,11 @@
 			"logo": "./images/redux_logo.svg"
 		},
 		{
+			"name": "use-state-hook",
+			"title": "useState hook",
+			"type": "language-jsx"
+		},
+		{
 			"name": "ref",
 			"title": "Ref",
 			"type": "language-jsx"
