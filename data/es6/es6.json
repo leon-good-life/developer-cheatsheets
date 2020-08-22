@@ -97,6 +97,16 @@
           "title": "Destructuring Nested Objects",
           "type": "language-javascript",
           "author": "Vishal Lakkapathri"
+        },
+        {
+          "name": "exponent-operator",
+          "title": "Exponent operator",
+          "type": "language-javascript"
+        },
+        {
+          "name": "promises-with-finally",
+          "title": "Promises with finally",
+          "type": "language-javascript"
         }
     ]
   }
