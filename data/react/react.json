@@ -49,6 +49,12 @@
 			"type": "language-jsx"
 		},
 		{
+			"name": "use-ref-hook",
+			"title": "useRef hook",
+			"type": "language-jsx",
+			"author": "Jonathan Gilyadov"
+		},
+		{
 			"name": "react-router",
 			"title": "React Router",
 			"type": "language-jsx",
