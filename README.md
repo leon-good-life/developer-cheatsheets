@@ -27,6 +27,7 @@ To add an example to a React Cheatsheet: (for example)
 ## contributors
 - [@leon-good-life](https://github.com/leon-good-life)
 - [@DalerAsrorov](https://github.com/DalerAsrorov)
+- [@JonathanGilyadov](https://github.com/JonathanGilyadov)
 - [@vipulrawat](https://github.com/vipulrawat)
 - [@itaditya](https://github.com/itaditya)
 - [@alexandre-pod](https://github.com/alexandre-pod)
