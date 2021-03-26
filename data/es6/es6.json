@@ -61,13 +61,13 @@
           "type": "language-javascript"
         },
         {
-          "name": "property-assignement",
-          "title": "object property assignement",
+          "name": "property-assignment",
+          "title": "object property assignment",
           "type": "language-javascript"
         },
         {
-          "name": "function-assignement",
-          "title": "object function assignement",
+          "name": "function-assignment",
+          "title": "object function assignment",
           "type": "language-javascript"
         },
         {
