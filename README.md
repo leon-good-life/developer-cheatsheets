@@ -1,5 +1,6 @@
 # developer-cheatsheets
-snippets of http://www.developer-cheatsheets.com/
+
+UODATE: I didn't renew the domain by mistake (developer-cheatsheets.com) somebody baught it and put ads instead of the cheat sheet. And now he sells the domain in an expensive price.
 
 ## contributing
 You can make a Pull Request and add an example, 
