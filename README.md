@@ -2,6 +2,8 @@
 
 UODATE: I didn't renew the domain by mistake (developer-cheatsheets.com) somebody baught it and put ads instead of the cheat sheet. And now he sells the domain in an expensive price.
 
+The examples in the cheat sheet outdated anyway. And there are other cheat sheets on the web.
+
 ## contributing
 You can make a Pull Request and add an example, 
 you will receive a credit under the example with a link to your website.
